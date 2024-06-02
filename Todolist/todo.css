@@ -1,0 +1,109 @@
+* {
+  margin: 25px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(236, 186, 133);
+    padding: 34px;
+    margin: auto;
+ 
+   
+    
+}
+.myInput{
+    font-size: 16px;
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    border: 2px solid  black;
+    border-radius: 6px;
+    display: block;
+    margin-left:10%;
+    text-align: center;
+   
+   
+}
+.myTextarea{
+    font-size: 16px;
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    border: 2px solid  black;
+    border-radius: 6px;
+    display: block;
+    margin-left:10%;
+    text-align: center;
+   
+
+}
+.myLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .input:focus, input:valid{
+    outline: none;
+    border: 1.5px solid white;
+}
+.input:focus ~ label,input:valid ~ label{
+    transform: translateX(-10%)
+    translateY(-50%) scale(0.9);
+    background-color: black;
+    padding: 0.2em;
+    color: aliceblue;
+} */
+.myButton{
+    color: white;
+    background-color: rgb(10, 10, 190);
+    padding: 8px 12px;
+   
+    font-size: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:45%;
+   
+    border-radius: 14px;
+
+}
+.myButton:hover{
+    background-color: rgb(37, 37, 99);
+}
+.deleteBtn{
+    color: white;
+    background-color:rgb(170, 19, 19);
+    padding: 8px 12px;
+    border: 1px solid black;
+   
+    font-size: 12px;
+    
+    cursor: pointer;
+    text-decoration: none;
+
+   
+    border-radius: 14px;
+
+
+}
+.deleteBtn:hover{
+    background-color: rgb(238, 120, 120);
+
+}
+/* .display{  
+    width: 100%;
+    margin: 10px 10px;
+    border: collapse;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blue;
+} */
+/* tbody{
+    background-color: aqua;
+}
+tbody tr td a{
+    margin: 4px;
+} */
+

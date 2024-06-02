@@ -1,0 +1,12 @@
+nav li {
+  display: inline;
+  font-size: larger;
+  font-weight: 800;
+ 
+ 
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+  
+}
